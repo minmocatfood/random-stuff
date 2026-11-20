@@ -1,0 +1,48 @@
+
+        Steghide
+        Foremost
+        Stegsolve
+        Strings
+        Exiftool
+        Exiv2
+        Binwalk
+        Zsteg
+        Wavsteg
+        Sonic visualizer
+        Web Tools
+        Unicode Text Steganography
+        npiet online
+        dcode.fr
+        StegCracker
+        fcrackzip
+     
+
+steghide info file : displays info about a file whether it has embedded data or not
+steghide extract -sf file : extracts embedded data from a file
+
+foremost -i file : extracts data from the given file
+
+stegsolve
+
+strings file : displays printable strings in the given file.
+
+exiftool file : shows the metadata of the given file
+
+exiv2 file : shows the metadata of the given file
+
+binwalk file : Displays the embedded data in the given file
+binwalk -e file : Displays and extracts the data from the given file
+
+
+zsteg -a file : runs all the methods on the given file
+zsteg -E file : extracts data from the given payload (example : zsteg -E b4,bgr,msb,xy name.png){: .align-center}
+
+wavsteg
+
+python3 wavsteg.py -r -s soundfile -o outputfile
+
+sonic visualizer
+
+dcode.fr
+
+fcrackzip -u -D -p wordlist.txt file.zip
